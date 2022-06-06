@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            font-family: 'roboto';
+            width: 1020px;
+            margin: auto;
+           
+        }
+        header{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+          font-weight: bold;
+          font-size: 30px;
+        }
+       .container{
+           position: relative;
+           height: 700px;
+           width: 600px;
+           background-color: silver;
+       }
+       main{
+           width: 700px;
+           position: absolute;
+           left:0px;
+           top: 0px;
+       }
+      
+        aside{
+            width: 300px;
+            position:relative;
+            left: 700px;
+            top: 0px;
+            padding: 10px;
+            background-color: darkgrey;
+        }
+        section{
+            padding: 5px;
+           }
+        
+        article{
+           width: 250px;
+           height: 250px;
+           text-align: justify;
+           position: absolute;
+           padding: 10px;
+           margin: 10px;
+           background-color: white;
+        }
+        article1{
+            text-align: center;
+            background-color: darkgray;
+            margin: 20px;
+        }
+        nav{
+            position: relative;
+            left: 150px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        article:nth-child(1){
+            background-color: rgb(227,223,223);
+            top: 0px;
+            left: 0px;
+        }
+        article:nth-child(2){
+            background-color: rgb(227,223,223);
+            top: 0px;
+            left: 300px;
+        }
+        article:nth-child(3){
+            background-color: rgb(227,223,223);
+            top: 300px;
+            left: 0px;
+        }
+        article:nth-child(4){
+            background-color: rgb(227,223,223);
+            top: 300px;
+            left: 300px;
+        }
+        article:nth-child(5){
+            background-color: rgb(227,223,223);
+            top: 300px;
+            left: 300px;
+        }
+           
+        
+        li{
+            list-style: none;
+            position: absolute;
+            width: 100px;
+           height: 30px;
+           padding: 10px;
+           text-align: center;
+           line-height: 30px;
+           background-color: rgb(227,223,223);
+        }
+        li:hover{
+            background-color: silver;
+            cursor: pointer;
+        }
+        li a{
+            color: rgb(38, 39, 39);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        li:nth-child(1){
+            left: 0px;
+        }
+        li:nth-child(2){
+            left: 120px;
+        }
+        li:nth-child(3){
+            left: 240px;
+        }
+        li:nth-child(4){
+            left: 360px;
+        }
+        li:nth-child(5){
+            left: 480px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+    <header>
+        <h1>IBM </h1>
+    </header>
+    <nav>
+        
+        <ul>
+            <li><a href="#">link item 1</a></li>
+            <li><a href="#">link item 2</a></li>
+            <li><a href="#">link item 3</a></li>
+            <li><a href="#">link item 4</a></li>
+            <li><a href="#">link item 5</a></li>
+        </ul>
+    </nav> 
+    </div>
+    <div class="container">
+    <main>
+        <section>
+           
+            <article>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor saepe pariatur porro, asperiores ut vel suscipit eveniet vero earum quos maxime officiis, repellendus ratione quis voluptas deserunt sequi. Beatae.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id unde debitis laudantium explicabo quam porro tenetur placeat nulla provident incidunt exercitationem tempore magnam commodi numquam, error eaque vitae repellat omnis.
+               
+            </article>
+           
+            <article>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ex nisi eveniet nihil velit. Dolor quae, facere unde sapiente facilis aperiam modi nostrum consequuntur qui similique pariatur, eligendi, voluptatum quis!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quae voluptates ipsum exercitationem ipsa consequuntur illum dolor cumque, animi sed earum nemo perferendis, deserunt, iure consectetur similique veniam obcaecati cupiditate!
+               
+            </article>
+           
+            <article>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ut! Dicta expedita, voluptatum esse dolores placeat, nulla numquam obcaecati minima asperiores corrupti sunt. Reiciendis incidunt saepe possimus accusantium, aperiam inventore?
+               
+            </article>
+            <article>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ut! Dicta expedita, voluptatum esse dolores placeat, nulla numquam obcaecati minima asperiores corrupti sunt. Reiciendis incidunt saepe possimus accusantium, aperiam inventore?
+                
+            </article>
+        </section>
+    
+    </main>
+
+    <aside>
+        <article1>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ut! Dicta expedita, voluptatum esse dolores placeat, nulla numquam obcaecati minima asperiores corrupti sunt. Reiciendis incidunt saepe possimus accusantium, aperiam inventore?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quibusdam! Necessitatibus vero aliquam explicabo adipisci, similique praesentium asperiores nesciunt suscipit distinctio, vitae excepturi possimus perferendis molestiae magnam animi? Soluta, ipsam?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ut! Dicta expedita, voluptatum esse dolores placeat, nulla numquam obcaecati minima asperiores corrupti sunt. Reiciendis incidunt saepe possimus accusantium, aperiam inventore?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quibusdam! Necessitatibus vero aliquam explicabo adipisci, similique praesentium asperiores nesciunt suscipit distinctio, vitae excepturi possimus perferendis molestiae magnam animi? Soluta, ipsam?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam error laboriosam aut quia saepe optio explicabo dicta! Eum accusamus, sint magni blanditiis sit reiciendis quibusdam magnam qui voluptas sequi recusandae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ut! Dicta expedita, voluptatum esse dolores placeat, nulla numquam obcaecati minima asperiores corrupti sunt. Reiciendis incidunt saepe possimus accusantium, aperiam inventore?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quibusdam! Necessitatibus vero aliquam explicabo adipisci, similique praesentium asperiores nesciunt suscipit distinctio, vitae excepturi possimus perferendis molestiae magnam animi? Soluta, ipsam?
+             
+        </article1>
+    </aside>
+    </div>
+
+</body>
+<footer></footer>
+</html>
